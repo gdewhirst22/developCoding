@@ -1,0 +1,57 @@
+/* body{
+    background-color: lightblue;
+  } */
+  body {
+    background-image: url('cool-background(1).png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  p {
+    background-color: black;
+    color: white;
+  }
+  h1 {background-color: black;
+    color: white;
+}
+  .container { display: flex; min-height: 10vh; flex-direction: row; }
+
+  @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+}
+
+.box {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    /*
+    width: 400px;
+    */
+}
+
+/* Colours for each box */
+
+.box1 { background: #eccc68; }
+.box2 { background: #ff6348; }
+.box3 { background: #ff7f50; }
+.box4 { background: #ff4757; }
+.box5 { background: #f1c40f; }
+.box6 { background: #e67e22; }
+.box7 { background: #2ed573; }
+.box8 { background: #1e90ff; }
+.box9 { background: #c56cf0; }
+.box10 { background: #18dcff; }
+
+a:link {
+    text-decoration: none;
+  }
